@@ -68,7 +68,7 @@ def resume_response(file_path):
                      - Refinement: Review the poem for coherence, clarity, and artistic expression. Are there any areas that need refinement or enhancement? How can you polish the poem to perfection?
                      - Poem: With the above information generate a really good poem.
                      - These Topic Exploration , Brainstorming , Structuring the Poem , Crafting the Flow Emotional and Tone Refinement details can be just one sentences.
-                     - Follow all these steps carefully. """
+                     - Make sure the poem is generated. Follow all these steps carefully. """
 
     response = rag.chat(prompt)
     return response.response
